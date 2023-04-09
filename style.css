@@ -84,7 +84,7 @@ nav h1{
     margin: 0 auto;
     width: 1200px;
     /* position: relative; */
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
     display: flex;
     margin-top: 50px;
 }
@@ -112,7 +112,20 @@ nav h1{
     color: rgb(98,208,130);
     margin-right: 5px;
     font-size: 20px;
-    
 }
-
+.statistic{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(246,247,246);
+    margin-top: 60px;
+}
+.statistic h1{
+    color: rgb(95,207,128);
+    font-size: 48px;
+}
+.statistic p{
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+}
 
