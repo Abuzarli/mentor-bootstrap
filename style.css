@@ -11,6 +11,7 @@ nav{
     position: fixed;
     background-color: white;
     width: 100%;
+    z-index: 999;
 
 }
 nav h1{
@@ -128,4 +129,96 @@ nav h1{
     position: relative;
     bottom: 35px;
 }
+.cards{
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    gap: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+}
+.card-1{
+    width: 600px;
+    background-color: rgb(95,207,128);
+    color: white;
+    width: 100%;
+    height: 460px;
 
+    /* padding: 20px 80px; */
+
+}
+.card-1-content{
+    padding: 30px;
+}
+.card-1-btn{
+    background-color: rgb(127,217,153);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 40px;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+.card-1-btn:hover{
+    background-color: white;
+    color: rgb(127,217,153);
+}
+.card-1 h2{
+    font-size: 35px;
+}
+.card-2{
+    width: 600px;
+    border: 1px solid rgb(238,240,239);
+    width: 50%;
+    padding: 40px 30px;
+    text-align: center;
+    height: 400px;
+
+
+}
+.card-2 svg{
+    font-size: 32px;
+    color:rgb(146,222,169);
+    background-color: rgb(236,249,240);
+    border-radius: 50px;
+    padding: 18px;
+}
+
+
+.card-3{
+    width: 600px;
+    border: 1px solid rgb(238,240,239);
+    width: 50%;
+    padding: 40px 30px;
+    text-align: center;
+    height: 400px;
+
+
+}
+.card-3 svg{
+    font-size: 32px;
+    color:rgb(146,222,169);
+    background-color: rgb(236,249,240);
+    border-radius: 50px;
+    padding: 18px;
+}
+.card-4{
+    width: 600px;
+    border: 1px solid rgb(238,240,239);
+    width: 50%;
+    padding: 40px 30px;
+    text-align: center;
+    height: 400px;
+
+}
+.card-4 svg{
+    font-size: 32px;
+    color:rgb(146,222,169);
+    background-color: rgb(236,249,240);
+    border-radius: 50px;
+    padding: 18px;
+}
